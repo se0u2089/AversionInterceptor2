@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AversionInterceptor.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{799A7BD3-380E-4D45-93D3-AFAD09D1C197}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AversionInterceptor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AversionInterceptorEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E10CDD08-D72B-4D64-8B24-2828E772C0C9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\AversionInterceptor">
+			<UniqueIdentifier>{FDF12822-065A-473B-93D0-0ACCDC8BA33B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AversionInterceptor\AversionInterceptor.Build.cs">
+			<Filter>Source\AversionInterceptor</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AversionInterceptor\AversionInterceptor.cpp">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AversionInterceptor\AversionInterceptor.h">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AversionInterceptor\AversionInterceptorCharacter.cpp">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AversionInterceptor\AversionInterceptorCharacter.h">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AversionInterceptor\AversionInterceptorGameMode.cpp">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AversionInterceptor\AversionInterceptorGameMode.h">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AversionInterceptor\InterceptorCharacter.cpp">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AversionInterceptor\InterceptorCharacter.h">
+			<Filter>Source\AversionInterceptor</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
